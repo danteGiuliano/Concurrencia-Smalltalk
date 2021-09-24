@@ -19,7 +19,7 @@ Los procesos tanto con los Threads se componen de metodos y atributos basicos pa
 
 ### Inicializar un proceso en smalltalk
 
-La forma adecuada de iniciar un proceso es enviar un mensaje ```newProcess``` a un bloque, esto asignara el bloque a un Thread, se aclara que dicho Thread estara en estado de Listo (*suspended*) a la espera de poder ejecutarse, la forma de que el proceso estre en estado de ejecucion (*Runnable*) es mediante el mensaje ```resume``` lo cual hace consumir el tocken de ejecucion. 
+La forma adecuada de iniciar un proceso es enviar un mensaje ```newProcess``` a un bloque, esto asignara el bloque a un Thread, se aclara que dicho Thread estara en estado de Listo (*suspended*) a la espera de poder ejecutarse, la forma de que el proceso entre en estado de ejecucion (*Runnable*) es mediante el mensaje ```resume``` lo cual hace consumir el tocken de ejecucion. 
 
 Ejemplo:
 

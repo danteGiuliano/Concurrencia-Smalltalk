@@ -28,7 +28,7 @@ Transcript open.
 [3 timesRepeat: [3 trace. ' ' trace ]] newProcess.
 ```
 
-![1](C:\Users\Dan\Desktop\smalltalk concurrencia\creacion de proceso.jpg)
+![1](https://github.com/danteGiuliano/Concurrencia-Smalltalk/blob/main/creacion%20de%20proceso.jpg)
 
 al enviarle ``` self resume ``` al proceso que contiene el bloque, hara que ejecute las sentencias mostrandonos en el transcript su ejecucion, una terminado de ejecutar el proceso pasa a un estado de terminated.
 

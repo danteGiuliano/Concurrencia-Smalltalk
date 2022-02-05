@@ -1,4 +1,4 @@
-# Concurrencia en Smalltalk
+# Concurrencia en Smalltalk //En proceso
 
 Apuntes basados en http://books.pharo.org/booklet-ConcurrentProgramming/pdf/2020-02-18-Concur.pdf
 
